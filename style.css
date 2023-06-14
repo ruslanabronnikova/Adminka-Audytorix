@@ -948,6 +948,12 @@ body {
 		font-size: 25px;
 	}
 
+	#content main .column-first .head h3 {
+		margin-right: auto;
+		font-size: 18px;
+		font-weight: 600;
+	}
+
 	#content main .profile .profile__images .avatar {
 		width: 150px;
 		height: 150px;
@@ -1004,7 +1010,7 @@ body {
 	}
 
 	#content main .table-finance .head h3 {
-		font-size: 18px;
+		font-size: 16px;
 	}
 
 	.popup__input {
@@ -1062,6 +1068,14 @@ body {
 		width: calc(100% - 5px);
 		left: 5px;
 		transition: .3s ease;
+	}
+
+	#content main {
+		width: 100%;
+		padding: 36px 5px;
+		font-family: var(--Onest);
+		max-height: calc(100vh - 56px);
+		overflow-y: auto;
 	}
 
 	#content main .head-title .left h1 {
@@ -1125,6 +1139,12 @@ body {
 
 	#content main .table-finance .torix table th {
 		padding-right: 15px;
+	}
+
+	#content main .column-first .head .head__btn {
+		width: 125px;
+		height: 35px;
+		margin-right: 40px;
 	}
 
 }
